@@ -1,126 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
 
-  <style>
-    .table, tr, th, td{
-      border: 1px solid #ddd;
-    }
-    th, td {
-      padding: 10px;
-    }
-  </style>
+    <!-- <p>Xem tài liệu:<a href="https://www.google.com." target="_blank" 
+        title="Đây là linhk sang trang Google.com"> Tại đây</a></p>
 
-  <h1>Câu 1: Bài tập về thẻ a</h1>
-  <a href="https://www.google.com.vn/">Viết dòng này bằng thẻ a.Khi click vào link sang trang google.com</a><br>
-  <a href="https://www.google.com.vn/" target="_blank">Viết thẻ này bằng thẻ a.Khi click vào link sang trang google.com ở trong tab mới</a>
-
-  <h1>Câu 2: Bài tập về thẻ img</h1>
-  <p><b>Yêu cầu:</b> Tạo thư mục đặt tên images, sau đó để hình ảnh bất kì vào thư mục images đó. Tiếp theo, chèn hình ảnh đó vào trang web bằng cách sử dụng thẻ img. Đường dẫn ảnh là dạng relative(Đường dẫn tương đối)</p>
-  <img src="image/image2.jpg" alt="Ảnh bông hoa">
-
-  <h1>Câu 3: Bài tập về thẻ video</h1>
-  <p><b>Yêu cầu:</b> Tạo thư mục đặt tên là videos, sau đó để video bất kì vào thư mục videos đó. Tiếp theo, chèn video đó vào trang web bằng cách sử dụng thẻ video  và thẻ source. Đường dẫn video là dạng relative(Đường dẫn tương đối). Đặt kích thước video có width bằng 720 và heigtht bằng 405 (tương đương tỷ lệ 16:9)</p>
-  <video width="720" height="405" controls autoplay loop muted>
-    <source src="video.mp4" type="video/mp4">
-  </video>
-
-  <h1>Câu 4: Bài tập về thẻ table</h1>
-  <p><b>Yêu cầu:</b> Dùng thẻ table, thead, tbody, tr, th, td đã học để vẽ bảng sau:</p>
-  <p><b>Lưu ý:</b> Copy đoạn code sau vào file để có thêm đường viền cho table. Phần này chưa học nhưng thêm vào cho dễ nhìn.</p>
+    <img src="https://media.vov.vn/sites/default/files/styles/large/public/2023-11/Vi%20sao%20bau%20troi%20co%20mau%20xanh.jpg" alt="Đây là ảnh bầu trời">
   
-  <table>
-    <tbody>
-      <tr>
-        <td colspan="3"><b>Hóa đơn số 1234</b></td>
-        <td><b>Ngày 20/11/2022</b></td>
-      </tr>
-      <tr>
-        <td colspan="2"  >
-          <b>Thông tin khách hàng</b> <br>
-          Họ tên : Nguyễn Văn Chính <br>
-          Số điên thoại: 0123467895 <br>
-          Địa chỉ: 123, đường ABC, thành phố Hà Nội.
-        </td>
-        <td colspan="2" >
-          <b>Thông tin vận chuyển</b> <br>
-          Họ tên : Nguyễn Văn Chính <br>
-          Số điên thoại: 0123467895 <br>
-          Địa chỉ: 123, đường xyz, thành phố Hà Nội.
-        </td>
-      </tr>
-      <tr>
-        <td><b>Tên sản phẩm</b></td>
-        <td><b>Số lượng</b></td>
-        <td><b>Đơn giá</b></td>
-        <td><b>Thành tiền</b></td>
-      </tr>
-      <tr>
-        <td>Giày nam cao cấp</td>
-        <td>2</td>
-        <td>800.000đ</td>
-        <td>1.600.000đ</td>
-      </tr>
-      <tr>
-        <td>Giày nữ cao cấp</td>
-        <td>1</td>
-        <td>500.000đ</td>
-        <td>1.000.000đ</td>
-      </tr>
-      <tr>
-        <td colspan="3"><b>Tạm tính</b></td>
-        <td>2.600.000đ</td>
-      </tr>
-      <tr >
-        <td colspan="3"><b>Thuế VAT 10%</b></td>
-        <td>260.000đ</td>
-      </tr>
-      <tr>
-        <td colspan="3"><p><b>Tổng tiền</b></p></td>
-        <td><del>3.000.000đ</del> Giảm giá:2.500.000đ</td>
-      </tr>
-      </tr>
+    <img src="image.jpg" alt="">
 
-    </tbody>
-  </table>
+    <img src="image/image2.jpg" alt="">
+
+    <img src="/bai-02/image/image2.jpg" alt="">
+
+    <img src="  ../image-3.jpg" alt="">
 
 
-  <h1>Câu 5: Bài tập về thẻ ul, ol, li</h1>
+    <a href="https://laptrinh24h.vn/problems/">
+        <img src="https://laptrinh24h.vn/static/icons/logo.png" alt="">
+    </a> -->
 
-  <p><b>Yêu cầu:</b> Tạo danh sách sau sử dụng thẻ ul, li</p>
-  <ul>
-    <li>Facebook</li>
-    <li>Twitter</li>
-    <li>Instagram</li>
-    <li>Youtube</li>
-  </ul>
-
-  <p><b>Yêu cầu:</b> Tạo danh sách sau sử dụng thẻ ol li</p>
-  <ol>
-    <li>Thời trang</li>
-    <li>Công nghệ</li>
-    <li>Đồ điện tử</li>
-    <li>Đồ gia dụng</li>
-  </ol>
-
-  <p><b>Yêu cầu:</b> Tạo danh sách sau sử dụng thẻ ol li. Có kiểu là chữ La mã viết hoa</p>
-  <ol type="I">
-    <li>Học HTML5</li>
-    <li>Học CSS3</li>
-    <li>Học Bootstrap4</li>
-    <li>Học JavaScript</li>
-  </ol>
-
-  
-  <h1>Câu 6: Bài tập về class và id</h1>
-  <p><b>Yêu cầu:</b> Viết đoạn văn dưới đây và làm theo nội dung bên trong nó</p>
-  <div class="test-class">Viết đoạn văn này bằng thẻ div. Sau đó thêm class có giá trị là "test-class" vào thẻ div này.</div>
-  <div id="class-id">Viết đoạn văn này sử dụng thẻ div. Sau đó thêm id có giá trị là "test-id" vào thẻ div này.</div>
+    <!-- <video width="320" height="240" controls loop autoplay muted>
+        <source src="video.mp4" type="video/mp4">
+    </video> -->
+    
+    <audio width="320" height="240" controls loop autoplay muted>
+        <source src="audio.mp3" type="audio/wav"> 
+    </audio>
 
 </body>
 </html>
